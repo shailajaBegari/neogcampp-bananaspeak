@@ -1,0 +1,43 @@
+/* body{
+    color: rgb(43, 189, 226);
+}
+/* this is the selectors */
+/* h1{
+    color:rgb(0, 255, 42);
+}
+
+h2{
+    color: rgb(110, 26, 96);
+}
+#lib-header{
+    color: rgb(247, 52, 133);
+} */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* this is the root element */
+:root{
+    --primary-color: crimson;
+
+}
+/* containers */
+.container{
+   padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/* the .(dot) is used to select the class*/
+/* linkss */
+.link{
+    text-decoration: none;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: turquoise;
+}
